@@ -1,0 +1,32 @@
+.date, .camera {
+    width: 100%;
+    background-color: transparent;
+    color: ghostwhite;
+    border: 2px solid ghostwhite;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.opt, .select {
+    background-color: black;
+    color: ghostwhite;
+}
+
+.select:focus {
+    background-color: black;
+    color: ghostwhite;
+}
+
+.marsImage {
+    width: 100%;
+}
+
+.imgContainer {
+    margin-top: 15px;
+    border: 2px solid ghostwhite;
+    text-align: center;
+}
+
+/*.date::-webkit-calendar-picker-indicator{*/
+/*    color: ghostwhite;*/
+/*}*/

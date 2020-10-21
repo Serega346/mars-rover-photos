@@ -1,0 +1,26 @@
+.header {
+    background-image: url("https://wallpaperaccess.com/full/1608.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.h1 {
+    margin: 0;
+    color: ghostwhite;
+}
+
+.btn {
+    margin-top: 1.5rem;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid ghostwhite;
+    color: ghostwhite;
+}
+
+.btn:hover {
+    background-color: ghostwhite;
+    color: black;
+}

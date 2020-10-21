@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: ghostwhite;
+}
+
+a:link {
+    color: ghostwhite;
+}
+
+a:active {
+    color: ghostwhite;
+}
+
+a:visited {
+    color: ghostwhite;
+}
+
+a:hover {
+    text-decoration: none;
+}
