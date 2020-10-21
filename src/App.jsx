@@ -1,5 +1,4 @@
 import React from 'react';
-import {scroller} from "react-scroll"
 import {Header} from "./components/Header/header";
 import {Main} from "./containers/mainPage/mainPage";
 import {Footer} from "./components/Footer/footer";
