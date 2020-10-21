@@ -2,25 +2,52 @@
     background-image: url("https://wallpaperaccess.com/full/1608.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100vh;
     display: flex;
     align-items: center;
 }
 
 .h1 {
-    margin: 0;
+    margin: 20px;
     color: ghostwhite;
 }
 
 .btn {
-    margin-top: 1.5rem;
-    padding: 10px 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
     background-color: transparent;
-    border: 2px solid ghostwhite;
+    border: 3px solid ghostwhite;
     color: ghostwhite;
+    padding: 10px 30px;
+    transition-duration: 0.4s;
+    overflow: hidden;
 }
 
 .btn:hover {
-    background-color: ghostwhite;
+    background: ghostwhite;
     color: black;
 }
+
+.btn:after {
+    content: "";
+    background: black;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -30px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.btn:focus { outline:0; }

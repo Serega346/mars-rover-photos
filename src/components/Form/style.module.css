@@ -7,6 +7,10 @@
     cursor: pointer;
 }
 
+.date {
+    margin-bottom: 1rem;
+}
+
 .opt, .select {
     background-color: black;
     color: ghostwhite;
@@ -18,13 +22,17 @@
 }
 
 .marsImage {
-    width: 100%;
+    width: 75%;
 }
 
 .imgContainer {
     margin-top: 15px;
     border: 2px solid ghostwhite;
     text-align: center;
+}
+
+.container {
+    margin: 3rem 0;
 }
 
 /*.date::-webkit-calendar-picker-indicator{*/

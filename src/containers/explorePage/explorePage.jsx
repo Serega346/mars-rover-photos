@@ -11,12 +11,11 @@ export const ExplorePage = (props) => {
     return (
         <div className={style.bg}>
             <Container>
-                <h1>{props.name}</h1>
                 <Row>
-                    <Col lg={3} md={3}>
+                    <Col xl={3} lg={3} md={4} sm={12} xs={12} >
                         <RoverCard name={props.name}/>
                     </Col>
-                    <Col lg={6} md={6}>
+                    <Col xl={9} lg={9} md={8} sm={12} xs={12}>
                         <SearchForm name={props.name}/>
                     </Col>
                 </Row>

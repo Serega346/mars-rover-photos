@@ -1,10 +1,18 @@
 .roverInfo {
     border: 2px solid ghostwhite;
     border-radius: 5px;
+    position: sticky;
+    margin-top: 3rem;
+    top:15px
 }
 
 .roverImage {
     width: 100%;
+}
+
+.roverName {
+    text-align: center;
+    font-size: xx-large;
 }
 
 .item {

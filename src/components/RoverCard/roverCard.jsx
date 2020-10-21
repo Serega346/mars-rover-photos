@@ -15,6 +15,7 @@ export const RoverCard = (props) => {
 
     return (
         <div className={style.roverInfo}>
+            <h1 className={style.roverName}>{props.name}</h1>
             <img src={`${props.name}.jpg`} alt={props.name} className={style.roverImage}/>
             <div>
                 <div className={style.item}>Status<span>{missionInfo.status}</span></div>

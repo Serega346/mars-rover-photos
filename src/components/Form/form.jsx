@@ -18,6 +18,9 @@ export const SearchForm = (props) => {
     useEffect(() => {
         axios.get(`https://api.nasa.gov/mars-photos/api/v1/rovers/${props.name}/photos?${'earth_date=' + date}${camera !== "Any" ? '&camera=' + camera.toLowerCase() : ''}&api_key=${REACT_APP_API_KEY}`)
             .then(response => setData(response.data["photos"]))
+            .catch((error) => {
+                console.error('Error');
+            });
     }, [date, camera, props.name])
 
 
@@ -42,7 +45,7 @@ export const SearchForm = (props) => {
     })
 
     return (
-        <div>
+        <div className={style.container}>
             <form>
                 <input className={style.date} type="date" value={date} onChange={onChangeDate}/>
                 <Form.Control as="select" className={style.select} onChange={onChangeCamera}>
