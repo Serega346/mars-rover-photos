@@ -18,11 +18,9 @@ export const Header = (props) => {
         <header className={style.header}>
             <Container>
                 <Row>
-                    <Col lg={4} md={4}>
-                        <div className="text-center text-lg-left text-md-left">
+                    <Col xl={5} lg={5} md={5} sm={7} xs={12}>
                             <h1 className={style.h1}>Mars Explorer</h1>
                             <button onClick={scrollToSection} className={style.btn}>Explore</button>
-                        </div>
                     </Col>
                 </Row>
             </Container>
